@@ -1,24 +1,5 @@
-# circular
+This project was created to demonstrate an issue with circular references between components.
 
-## Project setup
-```
-npm install
-```
+My editor (VSCode) shows:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+`'default' implicitly has type 'any' because it does not have a type annotation and is referenced directly or indirectly in its own initializer.Vetur(7022)`
