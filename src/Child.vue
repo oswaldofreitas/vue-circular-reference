@@ -1,15 +1,15 @@
 <template>
-  <div id="app">
-    <parent />
+  <div class="Child">
+
   </div>
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import { defineComponent } from '@vue/composition-api';
 import Parent from './Parent.vue'
 
-export default Vue.extend({
-  name: "App",
+export default defineComponent({
+  name: 'Child',
   components: {
     Parent
   }
